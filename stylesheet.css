@@ -1,5 +1,5 @@
 body {
-	/*background-color: #FFDAB9;	*/
+	/*background-color: #FFDAB9;*/
 	background-color: #000;
 	-webkit-transition:background-color linear 5s;
 	-moz-transition:background-color linear 5s;
@@ -12,7 +12,7 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	background-color: #E6E6FA; /* Lilac background */
 	
 }
 .peach-after {
@@ -25,90 +25,90 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #DDA0DD; /* Plum lilac */
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #F8BBD0; /* Soft lilac pink */
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #DDA0DD; /* Plum lilac */
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #F8BBD0; /* Soft lilac pink */
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #DDA0DD; /* Plum lilac */
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #F8BBD0; /* Soft lilac pink */
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #DDA0DD; /* Plum lilac */
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #F8BBD0; /* Soft lilac pink */
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #DDA0DD; /* Plum lilac */
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #F8BBD0; /* Soft lilac pink */
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #E6E6FA; /* Light lilac */
 	}
 }
 
@@ -1056,7 +1056,7 @@ audio {
 	100% {
 		-ms-transform:translate(0px,0px);
 	}
-}o
+}
 @keyframes bannar_come {
 	0%{
 		transform:translate(0px,-1000px);
@@ -1089,7 +1089,7 @@ audio {
 	text-transform: uppercase;
 	font-family: 'Signika', sans-serif;
 	font-size: 50px;
-	color: #BF4136;
+	color: #9370DB; /* Medium lilac */
 	text-shadow: 5px 5px 5px #FFF;
 	display: none;
 }
@@ -1269,7 +1269,7 @@ audio {
 
 .type-wrap {
     font-size: 25px;
-    color: #C4515C;
+    color: #9370DB; /* Medium lilac */
 
 }
 
@@ -1299,29 +1299,29 @@ audio {
 	font-family: 'Signika', sans-serif;
 	font-size: 30px;
 	text-transform: uppercase;
-	color: #C4515C;
+	color: #8B7AB8; /* Deep lilac */
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
 	font-weight: bold;
 }
 
 .btn-primary {
-        border-color: #466baf;
+        border-color: #9370DB; /* Medium lilac */
         padding: 10px;
         text-transform: uppercase;
         font-family: 'Signika', sans-serif;
         font-weight: 700;
         color: #fff;
-        background-color: #466baf;
+        background-color: #9370DB; /* Medium lilac */
 }
     .btn-primary:hover,
     .btn-primary:focus,
     .btn-primary:active,
     .btn-primary.active,
     .open .dropdown-toggle.btn-primary {
-        border-color: #fff;
+        border-color: #DDA0DD; /* Plum lilac */
         color: #fff;
-        background-color: #466baf;
+        background-color: #DDA0DD; /* Plum lilac */
     }
 
 

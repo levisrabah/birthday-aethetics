@@ -37,6 +37,61 @@
         .message {
             margin-top: 20px; /* Adjust this value to move the message up or down */
         }
+        
+        /* Mobile responsiveness improvements */
+        @media (max-width: 768px) {
+            .celebrate-img {
+                width: 60% !important; /* Larger on mobile */
+            }
+            .bulb {
+                width: 40px !important;
+                height: 40px !important;
+                background-size: 40px 40px !important;
+            }
+            .balloons {
+                width: 80px !important;
+                height: 146px !important;
+                background-size: 80px 146px !important;
+            }
+            .balloons h4 {
+                font-size: 14px !important;
+            }
+            .message p {
+                font-size: 18px !important;
+            }
+            .btn {
+                padding: 8px 12px !important;
+                font-size: 12px !important;
+                margin: 2px !important;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .celebrate-img {
+                width: 80% !important; /* Even larger on very small screens */
+            }
+            .bulb {
+                width: 30px !important;
+                height: 30px !important;
+                background-size: 30px 30px !important;
+            }
+            .balloons {
+                width: 60px !important;
+                height: 110px !important;
+                background-size: 60px 110px !important;
+            }
+            .balloons h4 {
+                font-size: 12px !important;
+            }
+            .message p {
+                font-size: 16px !important;
+            }
+            .btn {
+                padding: 6px 10px !important;
+                font-size: 11px !important;
+                margin: 1px !important;
+            }
+        }
     </style>
 </head>
 
@@ -48,25 +103,25 @@
 			Your browser isn't invited for super fun audio time.
 		</audio>
 		<div class="balloons text-center" id="b1">
-			<h4 style="color:#f8b704;">A</h4>
+			<h4 style="color:#9370DB;">A</h4>
 		</div>
 		<div class="balloons text-center" id="b2">
-			<h4 style="color:#152ae0;">Very</h4>
+			<h4 style="color:#8B7AB8;">Very</h4>
 		</div>
 		<div class="balloons text-center" id="b3">
-			<h4 style="color:#f50e0e;">Happy</h4>
+			<h4 style="color:#DDA0DD;">Happy</h4>
 		</div>
 		<div class="balloons text-center" id="b4">
-			<h4 style="color:#eff706;">Birthday</h4>
+			<h4 style="color:#E6E6FA;">Birthday</h4>
 		</div>
 		<div class="balloons text-center" id="b5">
-			<h4 style="color:#705ef6;">My friend</h4>
+			<h4 style="color:#9370DB;">My friend</h4>
 		</div>
 		<div class="balloons text-center" id="b6">
-			<h4 style="color:#6cc712;">& Birthday mate</h4>
+			<h4 style="color:#8B7AB8;">& Birthday mate</h4>
 		</div>
 		<div class="balloons text-center" id="b7">
-			<h4 style="color:#0f962c;">Sharon</h4>
+			<h4 style="color:#DDA0DD;">Sharon</h4>
 		</div>
 
 		<img src="Images/Balloon-Border.png" width="100%" class="balloon-border">
